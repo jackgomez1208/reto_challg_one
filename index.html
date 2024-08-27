@@ -9,11 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>Encriptador y desencritador</h1>
-        <input type="text" placeholder="Ingrese la palabra a encriptar">
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
-        <button>Borrar</button>
+        <h1>Encritador - Desencriptador</h1>
+        <input type="text" id="input-ingreso-texto" placeholder="Ingrese el texto aqui">
+        <div class="container2">
+        <button id="btn-encriptar">Encriptar</button>
+        <button id="btn-desencriptar">Desencriptar</button>
+        <button id="btn-borrar">Borrar</button>
+        </div>
+            <div class="area-text-salida-container">
+                <div id="area-text-salida"></div>
+                <button id="btn-copiar">Copiar</button>
+            </div>
     </div>
     <script src="app.js"></script>
 </body>
